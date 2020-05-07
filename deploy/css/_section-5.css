@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'xl'.
-        on line 7 of /Users/jessicasummers/Documents/GitHub/js4679-homework-fix/dev/scss/sections/_section-5.scss, in `xl'
-        from line 7 of /Users/jessicasummers/Documents/GitHub/js4679-homework-fix/dev/scss/sections/_section-5.scss
+        on line 7 of /Users/jessicasummers/Documents/GitHub/New-Homework/dev/scss/sections/_section-5.scss, in `xl'
+        from line 7 of /Users/jessicasummers/Documents/GitHub/New-Homework/dev/scss/sections/_section-5.scss
 
 2:     Section 5
 3: ============= *\/
@@ -16,8 +16,8 @@ Error: Undefined mixin 'xl'.
 12: 
 
 Backtrace:
-/Users/jessicasummers/Documents/GitHub/js4679-homework-fix/dev/scss/sections/_section-5.scss:7:in `xl'
-/Users/jessicasummers/Documents/GitHub/js4679-homework-fix/dev/scss/sections/_section-5.scss:7
+/Users/jessicasummers/Documents/GitHub/New-Homework/dev/scss/sections/_section-5.scss:7:in `xl'
+/Users/jessicasummers/Documents/GitHub/New-Homework/dev/scss/sections/_section-5.scss:7
 /var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/E7BD9580-2524-4A03-9853-49DA1B65B553/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 /var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/E7BD9580-2524-4A03-9853-49DA1B65B553/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:98:in `block in with_mixin'
 /var/folders/jy/624rxxpn0f5c5scp2tyc6mwr0000gn/T/AppTranslocation/E7BD9580-2524-4A03-9853-49DA1B65B553/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:135:in `with_frame'
@@ -63,4 +63,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'xl'.\A         on line 7 of /Users/jessicasummers/Documents/GitHub/js4679-homework-fix/dev/scss/sections/_section-5.scss, in `xl'\A         from line 7 of /Users/jessicasummers/Documents/GitHub/js4679-homework-fix/dev/scss/sections/_section-5.scss\A \A 2:     Section 5\A 3: ============= */\A 4: #section-5{\A 5:     padding: 41px 0 36px;\A 6: \A 7:     @include xl{\A 8:         display: grid;\A 9:         grid-template-columns: auto 1200px auto;\A 10:         grid-template-areas: \". section-5 .\";\A 11:     }\A 12: "; }
+  content: "Error: Undefined mixin 'xl'.\A         on line 7 of /Users/jessicasummers/Documents/GitHub/New-Homework/dev/scss/sections/_section-5.scss, in `xl'\A         from line 7 of /Users/jessicasummers/Documents/GitHub/New-Homework/dev/scss/sections/_section-5.scss\A \A 2:     Section 5\A 3: ============= */\A 4: #section-5{\A 5:     padding: 41px 0 36px;\A 6: \A 7:     @include xl{\A 8:         display: grid;\A 9:         grid-template-columns: auto 1200px auto;\A 10:         grid-template-areas: \". section-5 .\";\A 11:     }\A 12: "; }

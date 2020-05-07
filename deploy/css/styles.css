@@ -383,8 +383,9 @@ textarea {
 /* =============
     Footer
 ============= */
-#footer {
-  color: #EEC167; }
+#footer > div {
+  position: relative;
+  background-color: #EEC167; }
 
 /* =============
     Section 1
@@ -423,7 +424,7 @@ textarea {
     #section-2 #section-2-container {
       display: grid;
       grid-template-columns: 40% auto;
-      grid-template-areas: ". section-2-image section-2-text .";
+      grid-template-areas: " section-2-image section-2-text ";
       padding: 50px 0; } }
   @media (min-width: 1200px) {
     #section-2 #section-2-container {
@@ -494,7 +495,7 @@ textarea {
   #section-4 {
     display: grid;
     grid-template-columns: auto 1200px auto;
-    grid-template-areas: ". section-5 ."; } }
+    grid-template-areas: ". section-4 ."; } }
 
 #section-4 ul {
   display: grid;

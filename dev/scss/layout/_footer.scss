@@ -2,6 +2,10 @@
     Footer
 ============= */
     #footer{
-        color: $yellow;
+        
+        >div{
+            position: relative;
+            background-color: $yellow;
+        }
 
     }
