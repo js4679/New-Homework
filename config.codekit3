@@ -404,9 +404,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/helpers/_variables.css",
-		"oF": 0,
+		"oA": 0,
+		"oAP": "/deploy/css/_variables.css",
+		"oF": 3,
 		"oS": 0,
 		"uL": 1
 		},
@@ -417,9 +417,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/layout/_footer.css",
-		"oF": 0,
+		"oA": 0,
+		"oAP": "/deploy/css/_footer.css",
+		"oF": 3,
 		"oS": 0,
 		"uL": 1
 		},
@@ -432,17 +432,9 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/layout/_header.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
-		},
-	"/dev/scss/sections/.sass-cache/0eb293bf84ceb93873ae54340d4c5d3be2d3db8d/_section-5.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/.sass-cache/0eb293bf84ceb93873ae54340d4c5d3be2d3db8d/_section-5.scssc",
-		"oF": 0
 		},
 	"/dev/scss/sections/_section-1.scss": {
 		"aP": 0,
@@ -558,7 +550,7 @@
 		"cB": 1,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/deploy/section-5.html",
 		"oF": 3
 		},

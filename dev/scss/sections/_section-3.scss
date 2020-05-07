@@ -9,7 +9,7 @@
         grid-template-areas: ". section-3 .";
     }
 
-    >section{
+    #section-3-image{
         background-image: url('../img/bubbles.jpg');
         background-size: cover;
         background-position: center;
@@ -20,7 +20,7 @@
         }
 
         @include xl{
-            grid-area: section-3;
+            grid-area: section-3-image;
         }
     }
 
@@ -28,7 +28,7 @@
         display: grid;
         text-align: center;
         grid-template-columns: 15px auto 15px;
-        grid-template-areas: ". section-3 .";
+        grid-template-areas: " section-3-text ";
         padding: 43px 0px;
         color: $yellow;
 

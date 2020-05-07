@@ -383,8 +383,7 @@ textarea {
 /* =============
     Footer
 ============= */
-#footer > div {
-  position: relative;
+#footer {
   background-color: #EEC167; }
 
 /* =============
@@ -457,22 +456,22 @@ textarea {
     grid-template-columns: auto 1200px auto;
     grid-template-areas: ". section-3 ."; } }
 
-#section-3 > section {
+#section-3 #section-3-image {
   background-image: url("../img/bubbles.jpg");
   background-size: cover;
   background-position: center;
   height: 513px; }
   @media (min-width: 992px) {
-    #section-3 > section {
+    #section-3 #section-3-image {
       height: 684px; } }
   @media (min-width: 1200px) {
-    #section-3 > section {
-      grid-area: section-3; } }
+    #section-3 #section-3-image {
+      grid-area: section-3-image; } }
 #section-3 > div {
   display: grid;
   text-align: center;
   grid-template-columns: 15px auto 15px;
-  grid-template-areas: ". section-3 .";
+  grid-template-areas: " section-3-text ";
   padding: 43px 0px;
   color: #EEC167; }
   @media (min-width: 768px) {
