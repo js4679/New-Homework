@@ -1,0 +1,33 @@
+/* =============
+    Section 1
+============= */
+
+#section-1{
+    
+    @include xl{
+        display: grid;
+        grid-template-columns: auto 1200px auto;
+        grid-template-areas: ". section-1 .";
+
+    }
+    
+    >div{
+        background-image: url('../img/hero.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 370px;
+
+        @include md{
+            height: 513px;
+        }
+
+        @include lg{
+            height: 684px;
+        }
+
+        @include xl{
+            grid-area: section-1;
+        }
+    }
+        
+}

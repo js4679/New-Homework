@@ -1,0 +1,56 @@
+/* =============
+    Section 2
+============= */
+#section-2{
+
+    padding-bottom: 32px;
+
+    @include xl{
+        display: grid;
+        grid-template-columns: auto 1200px auto;
+        grid-template-areas: ". section-2-container .";
+    }
+
+    #section-2-container{
+
+        @include md{
+            display: grid;
+            grid-template-columns: 40% auto;
+            grid-template-areas: ". section-2-image section-2-text .";
+            padding: 50px 0;
+        }
+
+        @include xl{
+            grid-area: section-2-container;
+        }
+
+        section{
+            margin: 60px 0;
+            @include md{
+                margin: 0;
+            }
+
+            #section-2-text{
+                padding: 0 15px;
+                grid-area: section-2-text;
+            }
+            
+        }
+    }
+
+    #section-2-image{
+        background-image: url("../img/pinkmixes.jpg");
+        background-size: cover;
+        height: 480px;
+
+        @include md{
+            grid-area: section-2-image;
+            height: 417px;
+        }
+
+        @include xl{
+            height: 737px;
+        }
+
+    }
+}
