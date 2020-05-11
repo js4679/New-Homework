@@ -1,27 +1,12 @@
 /* =============
-    Section 3
+    Section 3 text
 ============= */
-#section-3{
+#section-3-text{
 
     @include xl{
         display: grid;
         grid-template-columns: auto 1200px auto;
-        grid-template-areas: ". section-3 .";
-    }
-
-    #section-3-image{
-        background-image: url('../img/bubbles.jpg');
-        background-size: cover;
-        background-position: center;
-        height: 513px;
-
-        @include lg{
-            height: 684px;
-        }
-
-        @include xl{
-            grid-area: section-3-image;
-        }
+        grid-template-areas: ". section-3-text .";
     }
 
     >div{
@@ -29,19 +14,20 @@
         text-align: center;
         grid-template-columns: 15px auto 15px;
         grid-template-areas: " section-3-text ";
-        padding: 43px 0px;
+        padding: 43px;
         color: $yellow;
-
+    
         @include md{
             grid-template-columns: auto 70% auto;
         }
-
+    
         @include xl{
             grid-template-columns: auto 650px auto;
+            grid-area: section-3-text;
         }
         
         >aside{
-            grid-area: section-3;
+            grid-area: aside;
             
             hr{
                 border: none;

@@ -343,7 +343,7 @@ ul {
     Typography
 ============= */
 body {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Raleway', sans-serif; }
 
 h1, h2, h3, h4 {
   margin: 0;
@@ -355,6 +355,9 @@ p {
 
 .section-title {
   font-weight: 300; }
+
+.section-1 {
+  font-family: 'Lobster', cursive; }
 
 /* =============
     Buttons
@@ -436,6 +439,10 @@ textarea {
     #section-2 #section-2-container section #section-2-text {
       padding: 0 15px;
       grid-area: section-2-text; }
+      #section-2 #section-2-container section #section-2-text hr {
+        border: none;
+        height: 3px;
+        background-color: #EEC167; }
   #section-2 #section-2-image {
     background-image: url("../img/pinkmixes.jpg");
     background-size: cover;
@@ -448,41 +455,51 @@ textarea {
       #section-2 #section-2-image {
         height: 737px; } }
 /* =============
-    Section 3
+    Section 3 Image
 ============= */
 @media (min-width: 1200px) {
-  #section-3 {
+  #section-3-image {
     display: grid;
     grid-template-columns: auto 1200px auto;
-    grid-template-areas: ". section-3 ."; } }
+    grid-template-areas: ". section-3-image ."; } }
 
-#section-3 #section-3-image {
+#section-3-image > div {
   background-image: url("../img/bubbles.jpg");
   background-size: cover;
   background-position: center;
   height: 513px; }
   @media (min-width: 992px) {
-    #section-3 #section-3-image {
+    #section-3-image > div {
       height: 684px; } }
   @media (min-width: 1200px) {
-    #section-3 #section-3-image {
+    #section-3-image > div {
       grid-area: section-3-image; } }
-#section-3 > div {
+/* =============
+    Section 3 text
+============= */
+@media (min-width: 1200px) {
+  #section-3-text {
+    display: grid;
+    grid-template-columns: auto 1200px auto;
+    grid-template-areas: ". section-3-text ."; } }
+
+#section-3-text > div {
   display: grid;
   text-align: center;
   grid-template-columns: 15px auto 15px;
   grid-template-areas: " section-3-text ";
-  padding: 43px 0px;
+  padding: 43px;
   color: #EEC167; }
   @media (min-width: 768px) {
-    #section-3 > div {
+    #section-3-text > div {
       grid-template-columns: auto 70% auto; } }
   @media (min-width: 1200px) {
-    #section-3 > div {
-      grid-template-columns: auto 650px auto; } }
-  #section-3 > div > aside {
-    grid-area: section-3; }
-    #section-3 > div > aside hr {
+    #section-3-text > div {
+      grid-template-columns: auto 650px auto;
+      grid-area: section-3-text; } }
+  #section-3-text > div > aside {
+    grid-area: aside; }
+    #section-3-text > div > aside hr {
       border: none;
       height: 3px;
       background-color: #EECEC4; }
@@ -541,7 +558,7 @@ textarea {
     #section-5 > div {
       display: grid;
       grid-template-columns: 35% auto;
-      grid-template-areas: ". section-5 ."; } }
+      grid-template-areas: " div "; } }
   #section-5 > div aside {
     margin-bottom: 34px;
     text-align: center; }
@@ -551,7 +568,7 @@ textarea {
   #section-5 > div section {
     display: grid;
     grid-template-columns: 15px auto 15px;
-    grid-template-areas: ". section-5 .";
+    grid-template-areas: " section ";
     text-align: justify; }
     @media (min-width: 768px) {
       #section-5 > div section {

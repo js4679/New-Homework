@@ -14,7 +14,7 @@
         @include xl{
             display: grid;
             grid-template-columns: 35% auto;
-            grid-template-areas: ". section-5 .";
+            grid-template-areas: " div ";
 
         }
         
@@ -29,7 +29,7 @@
         section{
             display: grid;
             grid-template-columns: 15px auto 15px;
-            grid-template-areas: ". section-5 .";
+            grid-template-areas: " section ";
             text-align: justify;
 
             @include md{

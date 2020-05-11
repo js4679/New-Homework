@@ -1,0 +1,26 @@
+/* =============
+    Section 3 Image
+============= */
+#section-3-image{
+
+    @include xl{
+        display: grid;
+        grid-template-columns: auto 1200px auto;
+        grid-template-areas: ". section-3-image .";
+    }
+
+    >div{
+        background-image: url('../img/bubbles.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 513px;
+
+        @include lg{
+            height: 684px;
+        }
+
+        @include xl{
+            grid-area: section-3-image;
+        }
+    }
+}

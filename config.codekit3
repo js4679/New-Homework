@@ -247,12 +247,20 @@
 		"oAP": "/deploy/section-2.html",
 		"oF": 0
 		},
-	"/deploy/section-3.html": {
+	"/deploy/section-3-image.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/section-3.html",
+		"oAP": "/deploy/section-3-image.html",
+		"oF": 0
+		},
+	"/deploy/section-3-text.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/section-3-text.html",
 		"oF": 0
 		},
 	"/deploy/section-4.html": {
@@ -458,11 +466,24 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_section-2.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_section-3.scss": {
+	"/dev/scss/sections/_section-3-image.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/deploy/css/_section-3-image.css",
+		"oF": 3,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section-3-text.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -470,8 +491,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_section-3.css",
-		"oF": 0,
+		"oAP": "/deploy/css/_section-3-text.css",
+		"oF": 3,
 		"oS": 0,
 		"uL": 1
 		},
@@ -530,13 +551,21 @@
 		"oAP": "/dev/section-2.html",
 		"oF": 0
 		},
-	"/dev/section-3.kit": {
+	"/dev/section-3-image.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/section-3.html",
-		"oF": 0
+		"oAP": "/deploy/section-3-image.html",
+		"oF": 3
+		},
+	"/dev/section-3-text.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/section-3-text.html",
+		"oF": 3
 		},
 	"/dev/section-4.kit": {
 		"cB": 0,

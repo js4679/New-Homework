@@ -33,6 +33,12 @@
             #section-2-text{
                 padding: 0 15px;
                 grid-area: section-2-text;
+                
+                hr{
+                    border: none;
+                    height: 3px;
+                    background-color: $yellow;
+                }
             }
             
         }
