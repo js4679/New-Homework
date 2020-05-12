@@ -380,9 +380,63 @@ textarea {
 /* =============
     Navigation
 ============= */
+#nav-container ul {
+  height: 100%;
+  text-align: right; }
+  @media (min-width: 992px) {
+    #nav-container ul {
+      display: flex;
+      justify-content: flex-end; } }
+  #nav-container ul li {
+    margin-bottom: 20px; }
+    @media (min-width: 992px) {
+      #nav-container ul li {
+        align-items: center;
+        display: flex;
+        margin: 0 30px 0 0; } }
+    #nav-container ul li a:link,
+    #nav-container ul li a:visited {
+      color: #EECEC4;
+      text-decoration: none; }
+    #nav-container ul li a:hover,
+    #nav-container ul li a:active {
+      color: #EEC167; }
+
 /* =============
     Header
 ============= */
+header {
+  background-color: #fff;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+  header > div {
+    display: grid;
+    grid-template-areas: "logo burger" "nav nav";
+    grid-template-columns: 80% auto; }
+    header > div #logo-container {
+      grid-area: logo;
+      padding: 20px; }
+    header > div #burger-container {
+      grid-area: burger;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 20px; }
+      @media (min-width: 992px) {
+        header > div #burger-container {
+          display: none; } }
+      header > div #burger-container i {
+        cursor: pointer; }
+    header > div #nav-container {
+      background-color: #000;
+      grid-area: nav;
+      display: none;
+      padding: 20px; }
+      @media (min-width: 992px) {
+        header > div #nav-container {
+          display: block; } }
 /* =============
     Footer
 ============= */
