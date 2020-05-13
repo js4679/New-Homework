@@ -466,6 +466,16 @@ header {
   @media (min-width: 1200px) {
     #section-1 > div {
       grid-area: section-1; } }
+  #section-1 > div > h1 {
+    padding-top: 200px;
+    text-align: left;
+    padding-left: 30px;
+    font-family: 'Lobster', cursive; }
+  #section-1 > div > h2 {
+    text-align: left;
+    padding-left: 30px;
+    font-weight: 500; }
+
 /* =============
     Section 2
 ============= */
@@ -492,7 +502,8 @@ header {
         margin: 0; } }
     #section-2 #section-2-container section #section-2-text {
       padding: 0 15px;
-      grid-area: section-2-text; }
+      grid-area: section-2-text;
+      text-align: center; }
       #section-2 #section-2-container section #section-2-text hr {
         border: none;
         height: 3px;
@@ -538,7 +549,6 @@ header {
     grid-template-areas: ". section-3-text ."; } }
 
 #section-3-text > div {
-  display: grid;
   text-align: center;
   grid-template-columns: 15px auto 15px;
   grid-template-areas: " section-3-text ";
@@ -613,11 +623,11 @@ header {
       display: grid;
       grid-template-columns: 35% auto;
       grid-template-areas: " div "; } }
-  #section-5 > div aside {
+  #section-5 > div > aside {
     margin-bottom: 34px;
     text-align: center; }
     @media (min-width: 768px) {
-      #section-5 > div aside {
+      #section-5 > div > aside {
         margin-bottom: 46px; } }
   #section-5 > div section {
     display: grid;
@@ -627,5 +637,6 @@ header {
     @media (min-width: 768px) {
       #section-5 > div section {
         grid-template-columns: auto 70% auto; } }
-    #section-5 > div section > div {
-      grid-area: section-5; }
+    #section-5 > div section #div-2 {
+      grid-area: div-2;
+      padding-right: 30px; }

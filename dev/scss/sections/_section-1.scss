@@ -28,6 +28,20 @@
         @include xl{
             grid-area: section-1;
         }
+
+        >h1{
+            padding-top: 200px;
+            text-align: left;
+            padding-left: 30px;
+            font-family: 'Lobster', cursive;
+            
+            
+        }
+        >h2{
+            text-align: left;
+            padding-left: 30px;
+            font-weight: 500;
+        }
     }
         
 }
