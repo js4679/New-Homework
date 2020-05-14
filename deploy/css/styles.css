@@ -448,7 +448,7 @@ header {
     Footer
 ============= */
 #footer {
-  background-color: #EEC167; }
+  align-items: center; }
 
 /* =============
     Section 1

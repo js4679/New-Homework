@@ -1,8 +1,5 @@
 /* =============
     Footer
 ============= */
-    #footer{
-        
-        background-color: $yellow;
-    
-    }
+#footer {
+  align-items: center; }
